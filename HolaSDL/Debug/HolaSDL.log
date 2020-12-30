@@ -1,0 +1,28 @@
+﻿  FileFormatError.cpp
+  FileNotFound.cpp
+  Game.cpp
+  GameCharacter.cpp
+  GameMap.cpp
+  GameObject.cpp
+  Ghost.cpp
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Game.cpp(430,17): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.cpp(47,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.cpp(59,21): warning C4018: '>': no coinciden signed/unsigned
+  main.cpp
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.cpp(64,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005: '_malloca': redefinición de macro
+  PacMan.cpp
+  PacmanError.cpp
+  SDLError.cpp
+  SmartGhost.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message : vea la definición anterior de '_malloca'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(40,21): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(101,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(136,22): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(141,49): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(142,9): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+  Texture.cpp
+  Vector2D.cpp
+  Generando código...
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(144,43): warning C4018: '>': no coinciden signed/unsigned
+  HolaSDL.vcxproj -> C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\bin\HolaSDLDebug.exe
