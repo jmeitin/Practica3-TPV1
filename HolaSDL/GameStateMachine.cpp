@@ -17,6 +17,7 @@ void GameStateMachine::popState() {
 		delete states.top();
 		states.pop(); 
 	}
+
 	else throw "La pila de GameStateMachine esta vacía.";
 }
 

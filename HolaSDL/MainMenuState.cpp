@@ -7,7 +7,8 @@ MainMenuState::MainMenuState(Texture* t, Game* a) : GameState(a) { //mas paramet
 }
 
 bool MainMenuState::handleEvent(SDL_Event& e){
-	if () { //sis se pulsa
+	if () { //si se pulsa
+
 		//ejecuta accion
 		return true;
 	}
