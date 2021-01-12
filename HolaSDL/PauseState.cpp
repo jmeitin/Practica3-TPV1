@@ -1,15 +1,10 @@
 #include "PauseState.h"
-PauseState::PauseState(Texture* t, Game* a) : GameState(a) { //mas parametros?
-	stage.push_back(new MenuButton(t, pos, width, height, a));
-	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY() + height), width, height, a));
-	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY() + height * 2), width, height, a));
+PauseState::PauseState(Texture* t, Game* app) : GameState(app) { //mas parametros?
+	stage.push_back(new MenuButton(t, pos, width, height, app));									   //enverdadesapp
+	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY() + height), width, height, app, resume(app))); //resume es el nombre del metodo
+	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY() + height * 2), width, height, app));
 }
 
-bool MainMenuState::handleEvent(SDL_Event& e) {
-	if () { //si se pulsa
-
-		//ejecuta accion
-		return true;
-	}
-	return false;
+static void resume(Game* app){
+	game->getStateMachine()->posState();
 }

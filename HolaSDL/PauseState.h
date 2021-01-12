@@ -13,5 +13,4 @@ private:
 
 public:
 	PauseState(Texture*, Game*);
-	bool handleEvent(SDL_Event&);
 };
