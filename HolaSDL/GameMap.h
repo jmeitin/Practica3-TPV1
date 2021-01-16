@@ -22,5 +22,6 @@ public:
 	void saveToFile(ofstream&);
 	virtual void render()const;
 	void SetCell(int, int, int);
+	virtual void update(); //jona y havi unidos en el infierno----------------------------- (en Game salia error en la constructora de GameMap)
 };
 

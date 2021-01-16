@@ -1,4 +1,5 @@
 #include "SmartGhost.h"
+#include "Game.h"
 
 using namespace std;
 

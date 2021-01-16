@@ -1,7 +1,6 @@
 #pragma once
 #include "Ghost.h"
 #include <vector>
-#include "Game.h"
 
 class Game;
 

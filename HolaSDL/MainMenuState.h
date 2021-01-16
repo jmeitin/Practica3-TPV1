@@ -3,6 +3,8 @@
 #include "GameState.h"
 #include "MenuButton.h"
 
+class Game;
+
 class MainMenuState : public  GameState
 {
 private:
@@ -13,6 +15,8 @@ private:
 
 public:
 	MainMenuState(Texture*, Game*);
-	bool handleEvent(SDL_Event&);
+	static void playNew(Game*);
+	static void playSaved(Game*);
+	static void quit(Game*);
 };
 

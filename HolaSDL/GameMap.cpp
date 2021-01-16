@@ -20,6 +20,10 @@ GameMap::~GameMap() {
 	delete[] cells;
 }
 
+void GameMap::update() { //flipada de jona y javi--------------------------------------------------------------------------------------------------
+
+}
+
 //COMPRUEBA SI UN SDL Rect choca con WALL
 bool GameMap::intersectsWall(const SDL_Rect& rect) {
 	Point2D topLeftCoords = game->SDLPointToMapCoords(Vector2D(rect.x, rect.y));
