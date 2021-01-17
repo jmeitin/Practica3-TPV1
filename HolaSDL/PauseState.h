@@ -9,12 +9,15 @@ class PauseState : public  GameState
 {
 private:	
 	Point2D pos; //HAY QUE DARLE UN VALOR -------------------------------------------------------------------
-	int width;
-	int height;
+	
 
+	//resume, save, back to menu
+	TextureName resumeText = ResumeText;
+	TextureName saveText = SaveText;
+	TextureName mainText = MainText;
 
 public:
-	PauseState(Texture*, Game*);
+	PauseState(Game*);
 	static void resume(Game*);
 	static void save(Game*);
 	static void backToMenu(Game*);

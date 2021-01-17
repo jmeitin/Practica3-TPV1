@@ -9,12 +9,14 @@ class MainMenuState : public  GameState
 {
 private:
 	Point2D pos; //HAY QUE DARLE UN VALOR -------------------------------------------------------------------
-	int width;
-	int height;
+	
 
+	TextureName playText = PlayText;
+	TextureName restartText = RestartText;
+	TextureName exitText = ExitText;
 
 public:
-	MainMenuState(Texture*, Game*);
+	MainMenuState(Game*);
 	static void playNew(Game*);
 	static void playSaved(Game*);
 	static void quit(Game*);

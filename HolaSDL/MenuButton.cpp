@@ -1,16 +1,17 @@
 #include "MenuButton.h"
+#include "Game.h"
 
-MenuButton::MenuButton(Texture* t, Point2D pos, int w, int h, Game* app , CallBackOnClick* cb) : GameObject(pos, w, h, app) { // EventHandler?
-	texture = t;
+MenuButton::MenuButton(TextureName name, Point2D pos, Game* app , CallBackOnClick* cb) : GameObject(pos, width, height, app) { // EventHandler?
+	texture = app->getTexture(name);
 	cbOnClick = cb;
 }
 
 MenuButton::~MenuButton() {
-	//delete t;
+	//no hace na
 }
 
 void MenuButton::update() {
-	//no hace nada
+	//no hace nada								Text
 }
 
 //se renderizan-----------------------------------------------------------------------------------------------------

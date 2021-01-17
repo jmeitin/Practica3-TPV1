@@ -1,5 +1,6 @@
 ﻿#include "Game.h"
 
+
 using namespace std;
 
 Game::Game() {	
@@ -19,23 +20,23 @@ Game::Game() {
 			TEXTURES_ATRIBS[i].numRows, TEXTURES_ATRIBS[i].numCols);
 		if (textures[i] == nullptr) throw FileNotFound(TEXTURES_ATRIBS[i].filename,"No se ha podido encontrar/cargar la textura");
 	}
-	MenuInicial(); //ELEGIR PARTIDA NUEVA/GUARDADA
-
+	//MenuInicial(); //ELEGIR PARTIDA NUEVA/GUARDADA
 
 	gameStateMachine = new GameStateMachine(); //pila de estados vacia
+	gameStateMachine->pushState(new MainMenuState(this));
 }
 
 void Game::MenuInicial() {
-	char c;	
-	cout << "Introduzca j si quiere JUGAR y c si quiere CARGAR una partida GUARDADA: \n";
-	cin >> c;
+	//char c;	
+	//cout << "Introduzca j si quiere JUGAR y c si quiere CARGAR una partida GUARDADA: \n";
+	//cin >> c;
 
-	if (c == 'j') {
-		loadLevelFile(); //LEE UN ARCHIVO PARA INCIALIZAR LOS ATRIBUTOS
-		DirGhost(); //le doy a los fantasmas una direccion inicial
-	}
+	//if (c == 'j') {
+	//	loadLevelFile(); //LEE UN ARCHIVO PARA INCIALIZAR LOS ATRIBUTOS
+	//	DirGhost(); //le doy a los fantasmas una direccion inicial
+	//}
 
-	else if (c == 'c') {
+	//else if (c == 'c') {
 		string codigo;
 
 		cout << "Introduzca el codigo numerico del nivel: \n";
@@ -43,7 +44,7 @@ void Game::MenuInicial() {
 
 		loadSavedGame(codigo);
 		DirGhost(); //le doy a los fantasmas una direccion inicial
-	}
+	//}
 
 	else cout << "Opción no valida";
 }

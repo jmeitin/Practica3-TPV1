@@ -2,10 +2,10 @@
 #include "Game.h"
 #include "PlayState.h"
 
-MainMenuState::MainMenuState(Texture* t, Game* a) : GameState(a) { //mas parametros?
-	stage.push_back(new MenuButton(t, pos, width, height, app, playNew));
-	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY()+height), width, height, a, playSaved));
-	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY() + height*2), width, height, a, quit));
+MainMenuState::MainMenuState(Game* a) : GameState(a) { //mas parametros?
+	stage.push_back(new MenuButton(playText, pos, a, playNew));
+	stage.push_back(new MenuButton (restartText, Point2D(pos.getX(), pos.getY()+height), a, playSaved));
+	stage.push_back(new MenuButton(exitText, Point2D(pos.getX(), pos.getY() + height*2), a, quit));
 }
 
 

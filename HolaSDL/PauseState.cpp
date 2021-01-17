@@ -2,10 +2,10 @@
 #include "Game.h"
 #include "MainMenuState.h"
 
-PauseState::PauseState(Texture* t, Game* app) : GameState(app) { //mas parametros?
-	stage.push_back(new MenuButton(t, pos, width, height, app, resume)); //resume es el nombre del metodo	   //enverdadesapp
-	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY() + height), width, height, app, save)); 
-	stage.push_back(new MenuButton(t, Point2D(pos.getX(), pos.getY() + height * 2), width, height, app, backToMenu));
+PauseState::PauseState(Game* app) : GameState(app) { //mas parametros?
+	stage.push_back(new MenuButton(resumeText, pos,  app, resume)); //resume es el nombre del metodo	   //enverdadesapp
+	stage.push_back(new MenuButton(saveText, Point2D(pos.getX(), pos.getY() + height),  app, save)); 
+	stage.push_back(new MenuButton(mainText, Point2D(pos.getX(), pos.getY() + height * 2), app, backToMenu));
 }
 	
 //resume, save, back to menu
@@ -19,5 +19,5 @@ void PauseState::save(Game* app) { //metodo de game que queremos que ejecute al 
 }
 
 void PauseState::backToMenu(Game* app) { //metodo de game que queremos que ejecute al pulsarse	
-	app->getStateMachine()->changeState(new MainMenuState(texture, app)); //-------------------------------------------------------------------
+	app->getStateMachine()->changeState(new MainMenuState(app)); //-------------------------------------------------------------------
 }
