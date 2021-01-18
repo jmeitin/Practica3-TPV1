@@ -2,13 +2,13 @@
 #include "Game.h"
 
 
-PacMan::PacMan (Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText) : GameCharacter(posI, w, h, g, v, pText) {
+PacMan::PacMan (Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText, PlayState* play) : GameCharacter(posI, w, h, g, v, pText,play) {
 	canEat = cant;		
 	dir = Vector2D(0, 0);
 	nextDir = Vector2D(0, 0);	
 }
 
-PacMan::PacMan(ifstream& file, Game* g) : GameCharacter(file,g) {
+PacMan::PacMan(ifstream& file, Game* g, PlayState* play) : GameCharacter(file,g,play) {
 	canEat = cant;
 	dir = Vector2D(0, 0);
 	nextDir = Vector2D(0, 0);
@@ -49,7 +49,7 @@ bool PacMan::CanEat() {
 void PacMan::update() {
 	Point2D newPoint = pos;
 	Point2D newPoint1 = pos;
-	game->checkGhost(pos,canEat);
+	static_cast<PlayState*>(game->getCurrentState())->checkGhost(pos,canEat);
 	
 	// si puedo cambiar de direccion lo hago	
 	if (game->TryMove(getDestRect(), nextDir, newPoint)) { // si me puedo mover en esa nextDir, lo hago

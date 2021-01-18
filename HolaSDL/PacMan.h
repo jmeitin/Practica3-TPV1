@@ -3,6 +3,7 @@
 #include "Vector2D.h"
 #include "Texture.h"
 #include "GameCharacter.h"
+#include "PlayState.h"
 #include <iostream>
 
 class Game;
@@ -22,8 +23,8 @@ private:
 	
 public:
 	//
-	PacMan(Point2D, int, int, Game*, Vector2D, Point2D);
-	PacMan(ifstream&,Game*);
+	PacMan(Point2D, int, int, Game*, Vector2D, Point2D, PlayState*);
+	PacMan(ifstream&,Game*, PlayState*);
 	~PacMan();
 	bool CanEat();
 	virtual void saveToFile(ofstream&);	

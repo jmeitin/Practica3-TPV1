@@ -3,22 +3,23 @@
 #include <vector>
 #include <iostream>
 		
-Ghost::Ghost(Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText) : GameCharacter(posI, w, h, g, v, pText) {
+Ghost::Ghost(Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText, PlayState* play) : GameCharacter(posI, w, h, g, v, pText, play) {
 
 	posdir[norte] = Vector2D(0, -1);
 	posdir[este] = Vector2D(1, 0);
 	posdir[oeste] = Vector2D(-1, 0);
 	posdir[sur] = Vector2D(0, 1);
-	dir.direc = Vector2D(0, 0);
-	
+	dir.direc = Vector2D(0, 0);	
 }
-Ghost::Ghost(ifstream& file, Game* g) : GameCharacter(file, g) {
+
+Ghost::Ghost(ifstream& file, Game* g, PlayState* play) : GameCharacter(file, g,play) {
 	posdir[norte] = Vector2D(0, -1);
 	posdir[este] = Vector2D(1, 0);
 	posdir[oeste] = Vector2D(-1, 0);
 	posdir[sur] = Vector2D(0, 1);
 	dir.direc = Vector2D(0, 0);
 }
+
 Ghost::~Ghost() {
 
 }
@@ -45,7 +46,8 @@ void Ghost::getDirIndice() {
 	//cout << textureFrame.getY();
 	vector<Vector2D> choices;
 	for (int x = 0; x < posdir.size(); x++) { 
-		Point2D posibili;//vamos chulos		
+		Point2D posibili;//vamos chulos	
+		//pedimos a la app que acceda al PlayState	
 		if (game->TryMove(getDestRect(),posdir[x], posibili)) {
 			choices.push_back(posdir[x]); //POSIBLE DIR EN LA QUE MOVERME			
 		}		

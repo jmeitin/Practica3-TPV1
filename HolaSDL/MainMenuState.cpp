@@ -19,9 +19,10 @@ void MainMenuState::playSaved(Game* app) { //metodo de game que queremos que eje
 
 	cout << "Introduzca el codigo numerico del nivel: \n";
 	cin >> codigo;
-	
-	app->getStateMachine()->changeState(new PlayState());
-	app->loadSavedGame(codigo); // falta llamar a DirGhost(); //le doy a los fantasmas una direccion inicial
+
+	PlayState* game = new PlayState();
+	app->getStateMachine()->changeState(game);
+	game->loadSavedGame(codigo); // falta llamar a DirGhost(); //le doy a los fantasmas una direccion inicial
 }
 
 void MainMenuState::quit(Game* app) { //metodo de game que queremos que ejecute al pulsarse

@@ -5,6 +5,7 @@
 #include "GameCharacter.h"
 #include <vector>
 #include <iostream>
+#include "PlayState.h"
 
 class Game;
 
@@ -29,8 +30,8 @@ protected:
 	
 	void getDir();
 public:
-	Ghost(Point2D , int , int , Game* , Vector2D , Point2D );
-	Ghost(ifstream&,Game*);
+	Ghost(Point2D , int , int , Game* , Vector2D , Point2D , PlayState*);
+	Ghost(ifstream&,Game*, PlayState*);
 	~Ghost();
 	Point2D getPos();
 	void getDirIndice();	

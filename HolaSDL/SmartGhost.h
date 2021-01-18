@@ -1,6 +1,7 @@
 #pragma once
 #include "Ghost.h"
 #include <vector>
+#include "PlayState.h"
 
 class Game;
 
@@ -19,8 +20,8 @@ protected:
 	int tVivo, tQuar;
 
 public:
-	SmartGhost(Point2D, int, int, Game*, Vector2D, Point2D);
-	SmartGhost(ifstream&, Game*);
+	SmartGhost(Point2D, int, int, Game*, Vector2D, Point2D, PlayState*);
+	SmartGhost(ifstream&, Game*, PlayState*);
 	~SmartGhost();
 	void handleState();
 	virtual void render() const;

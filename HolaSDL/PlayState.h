@@ -18,7 +18,7 @@
 #include "GameStateMachine.h"
 #include <cmath> //raiz cuadrada
 
-class PlayState
+class PlayState : public GameState
 {
 private:
 	string mapasGuardados = ".\\MapasGuardados\\level";
@@ -49,7 +49,7 @@ public:
 	void saveGame(string);
 	void loadSavedGame(string);
 
-	void renderObjects();
+	void render();
 	void run();
 	bool  TryMove(SDL_Rect, Vector2D, Point2D&);
 	int CheckCell(Point2D);

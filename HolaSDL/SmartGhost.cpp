@@ -3,12 +3,12 @@
 
 using namespace std;
 
-SmartGhost::SmartGhost(Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText) : Ghost(posI, w, h, g, v, pText) {
+SmartGhost::SmartGhost(Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText, PlayState* play) : Ghost(posI, w, h, g, v, pText,play) {
 	state = Child;
 	tVivo = SDL_GetTicks();
 }
 
-SmartGhost::SmartGhost(ifstream& file, Game* g) : Ghost(file, g) {
+SmartGhost::SmartGhost(ifstream& file, Game* g, PlayState* play) : Ghost(file, g, play) {
 	int estado;
 	file >> estado;
 	state = (State)estado;
@@ -25,8 +25,7 @@ void SmartGhost::render() const {
 	if (state == Child) {
 		myRect.w = myRect.w / 2;
 		myRect.h = myRect.h / 2;
-	}
-	
+	}	
 	texture->renderFrame(myRect, textureFrame.getX(), textureFrame.getY());
 }
 

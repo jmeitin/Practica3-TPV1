@@ -2,6 +2,7 @@
 #include <array>
 #include "Texture.h"
 #include "GameObject.h"
+#include "PlayState.h"
 class Game;
 
 enum MapCell{ Wall, Food, Vitamins, Empty};
@@ -15,8 +16,9 @@ private:
 	int cols;
 	MapCell** cells;
 	array <Texture*, 3> mapTextures;
+	PlayState* game;
 public:
-	GameMap(int, int, Texture*, Texture*,Texture* ,Point2D , int , int , Game* );
+	GameMap(int, int, Texture*, Texture*,Texture* ,Point2D , int , int , Game* ,PlayState* p);
 	~GameMap();
 	bool intersectsWall(const SDL_Rect& );
 	void saveToFile(ofstream&);

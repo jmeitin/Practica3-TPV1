@@ -11,11 +11,11 @@ const int height = 200;
 
 class MenuButton : public GameObject , public EventHandler
 {
-
+enum Estado {Nada,Hover,Clicked};
 protected:
 	Texture* texture;
 	CallBackOnClick* cbOnClick; //puntero a funcion
-
+	Estado estado;
 public:
 	MenuButton(TextureName, Point2D, Game*, CallBackOnClick*);
 	~MenuButton();

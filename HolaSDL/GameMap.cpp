@@ -2,7 +2,7 @@
 #include "Game.h" //TIENE QUE IR EN EL CPP PARA QUE NO DE ERROR
 
 
-GameMap::GameMap (int row, int col, Texture* wall, Texture* food, Texture* vitamins, Point2D p, int w, int h, Game* g) : GameObject (p,w,h,g){ //cels*
+GameMap::GameMap (int row, int col, Texture* wall, Texture* food, Texture* vitamins, Point2D p, int w, int h, Game* g, PlayState* p) : GameObject (p,w,h,g){ //cels*
 	rows = row;
 	cols = col;
 	cells = new MapCell*[rows];
@@ -13,6 +13,7 @@ GameMap::GameMap (int row, int col, Texture* wall, Texture* food, Texture* vitam
 	mapTextures[Wall] = wall;
 	mapTextures[Food] = food;
 	mapTextures[Vitamins] = vitamins;
+	game = p;
 }
 
 GameMap::~GameMap() { 

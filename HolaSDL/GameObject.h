@@ -10,7 +10,7 @@ class GameObject
 protected:
 	Point2D pos;
 	int width, height;
-	Game* game;
+	Game* app;
 
 public:
 	GameObject(Point2D, int, int, Game*);

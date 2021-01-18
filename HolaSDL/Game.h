@@ -49,6 +49,7 @@ private:
 
 	SDL_Window* window = nullptr;
 	SDL_Renderer* renderer = nullptr;
+	bool exitt = false;
 	
 	array<Texture*, NUM_TEXTURES> textures; //include SmartGhost
 	
@@ -61,6 +62,7 @@ public:
 	Texture* getTexture(TextureName);
 	void MenuGuardar();
 	GameStateMachine* getStateMachine(); //app
+	GameState* getCurrentState();
 	
 private:
 	void MenuInicial();

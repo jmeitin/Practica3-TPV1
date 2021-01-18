@@ -37,7 +37,7 @@ void Game::MenuInicial() {
 	//}
 
 	//else if (c == 'c') {
-		string codigo;
+	/*	string codigo;
 
 		cout << "Introduzca el codigo numerico del nivel: \n";
 		cin >> codigo;
@@ -46,7 +46,7 @@ void Game::MenuInicial() {
 		DirGhost(); //le doy a los fantasmas una direccion inicial
 	//}
 
-	else cout << "Opción no valida";
+	else cout << "Opción no valida";*/
 }
 
 //elegir nivel guardado
@@ -59,7 +59,7 @@ void Game::MenuGuardar() {
 		string codigo;
 		cout << "Introduzca el codigo numerico del nivel: \n";
 		cin >> codigo;
-		saveGame(codigo);
+		//saveGame(codigo);
 	}
 	else cout << "Que tenga un buen día.";
 }
@@ -80,12 +80,12 @@ void Game::run() { //BUCLE PRINCIPAL DEL JUEGO
 
 	startTime = SDL_GetTicks();//nos devuelve el tiempo actual en milisegundos 
 	
-	while (level == Playing || level == LevelPassed) {		//get-------------------------------------------------------------------
-		playState->handleEvents();				
+	while (!exitt) {		//get-------------------------------------------------------------------
+		getCurrentState()->handleEvents();				
 		frameTime = SDL_GetTicks() - startTime;
 						
 		if (frameTime >= FRAME_RATE || level == GameOver){ //Solo se actualiza cada tanto tiempo
-			playState->update();
+			getCurrentState()->update();
 			startTime = SDL_GetTicks();
 		}		
 		render();		
@@ -94,11 +94,14 @@ void Game::run() { //BUCLE PRINCIPAL DEL JUEGO
 
 
 
+GameState* Game::getCurrentState() {
+     return (gameStateMachine ->currentState());
+}
+
 
 void Game::render() {
 	SDL_RenderClear(renderer); //MUESTRA EN EL RENDER EL COLOR ESPECIFICADO POR EL DRAWCOLOR		
-	playState->renderObjects();
-	
+	getCurrentState()->render();	
 	SDL_RenderPresent(renderer); //MUESTRA EL RENDERIZADO	
 }
 

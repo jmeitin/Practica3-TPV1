@@ -5,11 +5,11 @@ GameObject::GameObject(Point2D p, int w, int h, Game* g) {
 	pos = p;
 	width = w;
 	height = h;
-	game = g;
+	app = g;
 }
  GameObject::GameObject(ifstream& file, Game * g) {
 	 file >> pos >> width >> height;
-	 game = g;	
+	 app = g;	
 }
 
 GameObject::~GameObject() {

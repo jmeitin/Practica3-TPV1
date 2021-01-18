@@ -30,9 +30,9 @@ void PlayState::loadFile(ifstream& file) {
 	short int valor;
 	int fantasmas = 0;
 	file >> rows >> cols;
-	cellWidth = WIN_WIDTH / cols;
+	cellWidth = WINren_WIDTH / cols;
 	cellHeight = WIN_HEIGHT / rows;
-	map = new GameMap(rows, cols, textures[WallText], textures[FoodText], textures[BurguerText], Point2D(0, 0), cellWidth * cols, cellHeight * rows, this); //CREAS GAMEMAP
+	map = new GameMap(rows, cols, textures[WallText], textures[FoodText], textures[BurguerText], Point2D(0, 0), cellWidth * cols, cellHeight * rows, app); //CREAS GAMEMAP
 	objects.push_back(map);
 
 	//leo el mapa y creo los objetos
@@ -46,16 +46,16 @@ void PlayState::loadFile(ifstream& file) {
 				map->cells[r][c] = Empty;
 
 				if (valor == 4) {
-					SmartGhost* g = new SmartGhost(mapCoordsToSDLPoint(Point2D(c, r)), cellWidth, cellHeight, this, Vector2D(0, 0), Vector2D(0, 8));
+					SmartGhost* g = new SmartGhost(mapCoordsToSDLPoint(Point2D(c, r)), cellWidth, cellHeight, app, Vector2D(0, 0), Vector2D(0, 8), this);
 					storeGhost(g);
 				}
 				else if (valor == 9) {
-					pacman = new PacMan(mapCoordsToSDLPoint(Point2D(c, r)), cellWidth, cellHeight, this, Vector2D(0, 0), Vector2D(0, 10)); //o POINT O VECTOR	
+					pacman = new PacMan(mapCoordsToSDLPoint(Point2D(c, r)), cellWidth, cellHeight, app, Vector2D(0, 0), Vector2D(0, 10), this); //o POINT O VECTOR	
 					auto it = objects.insert(objects.end(), pacman);
 					pacman->SetItList(it);
 				}
 				else {
-					Ghost* g = new Ghost(mapCoordsToSDLPoint(Point2D(c, r)), cellWidth, cellHeight, this, Vector2D(0, 0), Vector2D(0, fantasmas));
+					Ghost* g = new Ghost(mapCoordsToSDLPoint(Point2D(c, r)), cellWidth, cellHeight, app, Vector2D(0, 0), Vector2D(0, fantasmas),this);
 					fantasmas += 2; // avanza 2 posiciones en la sprite sheet
 					storeGhost(g);
 				}
@@ -83,13 +83,13 @@ void PlayState::loadSavedGame(string codigo) {
 		while (!file.eof()) {
 			switch (val) {
 			case Pacman: {
-				pacman = new PacMan(file, this);
+				pacman = new PacMan(file, app, this);
 				auto it = objects.insert(objects.end(), pacman);
 				pacman->SetItList(it);
 			}
 					   break;
 			case ghost: {
-				Ghost* g = new Ghost(file, this);
+				Ghost* g = new Ghost(file, app, this);
 				storeGhost(g);
 			}
 					  break;
@@ -99,7 +99,7 @@ void PlayState::loadSavedGame(string codigo) {
 			case Smart:
 				char c;
 				file >> c;
-				SmartGhost* g = new SmartGhost(file, this);
+				SmartGhost* g = new SmartGhost(file, app, this);
 				storeGhost(g);
 				break;
 			}
@@ -113,7 +113,7 @@ void PlayState::loadSavedGame(string codigo) {
 	else { //ERROR RECUPERABLE
 		cout << "codigo incorrecto  \n";
 		file.close();
-		MenuInicial();
+		//MenuInicial();
 	}
 }
 
@@ -185,7 +185,7 @@ void PlayState::update() {
 		else loadNextLevel();  //PASO DE NIVEL
 	}
 	else if (level == GameOver) {
-		MenuGuardar();
+		//MenuGuardar();
 	}
 
 	else { 	// ESTOY JUGANDO
@@ -206,7 +206,7 @@ void PlayState::update() {
 
 
 
-void PlayState::renderObjects() {
+void PlayState::render() {
 	for (auto o : objects) o->render();
 }
 
@@ -298,14 +298,14 @@ bool PlayState::GhostsCollide(Ghost* ghost) {
 		SmartGhost* g = dynamic_cast<SmartGhost*>((*it));
 
 		if (g != nullptr && g->canBreed()) { //ES SMARTGHOST Y LE TOCA DUPLICARSE
-			SmartGhost* gh = new SmartGhost(ghost->getPos(), cellWidth, cellHeight, this, Vector2D(0, 0), Vector2D(0, 8));
+			SmartGhost* gh = new SmartGhost(ghost->getPos(), cellWidth, cellHeight, app, Vector2D(0, 0), Vector2D(0, 8),this);
 			ghostsList.push_back(gh);
 			objects.push_back(gh);
 			return true;
 		}
 
 		else { //si es un ghost
-			Ghost* gh = new Ghost(ghost->getPos(), cellWidth, cellHeight, this, Vector2D(0, 0), Vector2D(0, 5));
+			Ghost* gh = new Ghost(ghost->getPos(), cellWidth, cellHeight, app, Vector2D(0, 0), Vector2D(0, 5), this);
 			ghostsList.push_back(gh);
 			objects.push_back(gh);
 			return true;
