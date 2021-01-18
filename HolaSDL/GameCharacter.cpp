@@ -1,5 +1,6 @@
 #include "GameCharacter.h"
 #include "Game.h"
+#include "PlayState.h"
 
 using namespace std;
 

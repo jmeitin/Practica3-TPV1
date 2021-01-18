@@ -2,7 +2,7 @@
 #include "Vector2D.h"
 #include "Texture.h"
 #include "GameObject.h"
-#include "PlayState.h"
+
 #include <list>
 #include <istream>
 #include <fstream>
@@ -11,6 +11,7 @@
 using Point2D = Vector2D;
 
 class Game;
+class PlayState;
 
 class GameCharacter : public GameObject
 {

@@ -15,11 +15,13 @@
 #include "PacMan.h"
 #include "Ghost.h"
 #include "SmartGhost.h"
-#include "GameStateMachine.h"
+//#include "GameStateMachine.h"
+#include "GameState.h"
 #include <cmath> //raiz cuadrada
 
 class PlayState : public GameState
 {
+
 private:
 	string mapasGuardados = ".\\MapasGuardados\\level";
 	string mapaASecas = "..\\Mapas-20201107\\level";
@@ -35,7 +37,6 @@ private:
 	const int velMov = 1;
 	int rows, cols;
 	int cellWidth, cellHeight;
-
 	GameMap* map;
 	PacMan* pacman;
 	list<Ghost*> ghostsList;
@@ -43,7 +44,7 @@ private:
 	list<list<GameObject*>::iterator> objectsToErase; // lista polimorfica
 
 public:
-	PlayState();
+	PlayState(Game*);
 	~PlayState();
 	void loadNextLevel();
 	void saveGame(string);

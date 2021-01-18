@@ -1,7 +1,8 @@
 #include "PlayState.h"
 
-PlayState::PlayState() {
-	rows = cols = 0;
+PlayState::PlayState(Game* g) : GameState(g){
+	rows = 0;
+	cols = 0;
 }
 
 PlayState::~PlayState() {

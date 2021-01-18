@@ -2,9 +2,9 @@
 #include "Game.h"
 
 PauseState::PauseState(Game* app) : GameState(app) { //mas parametros?
-	stage.push_back(new MenuButton(resumeText, pos,  app, resume)); //resume es el nombre del metodo	   //enverdadesapp
-	stage.push_back(new MenuButton(saveText, Point2D(pos.getX(), pos.getY() + height),  app, save)); 
-	stage.push_back(new MenuButton(mainText, Point2D(pos.getX(), pos.getY() + height * 2), app, backToMenu));
+	stage.push_back(new MenuButton(ResumeText, pos,  app, resume)); //resume es el nombre del metodo	   //enverdadesapp
+	stage.push_back(new MenuButton(SaveText, Point2D(pos.getX(), pos.getY() + height),  app, save)); 
+	stage.push_back(new MenuButton(MainText, Point2D(pos.getX(), pos.getY() + height * 2), app, backToMenu));
 }
 	
 //resume, save, back to menu

@@ -1,5 +1,5 @@
 ﻿#include "Game.h"
-
+#include "MainMenuState.h"
 
 using namespace std;
 
@@ -81,10 +81,11 @@ void Game::run() { //BUCLE PRINCIPAL DEL JUEGO
 	startTime = SDL_GetTicks();//nos devuelve el tiempo actual en milisegundos 
 	
 	while (!exitt) {		//get-------------------------------------------------------------------
-		getCurrentState()->handleEvent();				
+		SDL_Event event;
+		getCurrentState()->handleEvent(event);				
 		frameTime = SDL_GetTicks() - startTime;
 						
-		if (frameTime >= FRAME_RATE || level == GameOver){ //Solo se actualiza cada tanto tiempo
+		if (frameTime >= FRAME_RATE /*|| level == GameOver*/){ //Solo se actualiza cada tanto tiempo
 			getCurrentState()->update();
 			startTime = SDL_GetTicks();
 		}		

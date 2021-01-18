@@ -2,8 +2,8 @@
 #include "GameObject.h"
 #include "EventHandler.h"
 #include "Vector2D.h"
+#include "Game.h"
 
-class Game;
 
 using CallBackOnClick = void(Game* app); // puntero a un metodo al que le paso como parametro un puntero a game
 const int width = 500;
@@ -14,10 +14,7 @@ class MenuButton : public GameObject , public EventHandler
 enum Estado {Nada, Hover, Clicked};
 
 //FACILITA EL INDEXAR EL ARRAY--------------------------------------------------------------------------------------
-enum TextureName {
-	WallText, CharactersText, FoodText, BurguerText,
-	ExitText, MainText, PlayText, RestartText, ResumeText, SaveText
-};
+
 
 protected:
 	Texture* texture;

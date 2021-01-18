@@ -11,11 +11,10 @@
 #include "SDL_image.h" // Windows
 #include <array> //--------------------------------------------
 #include "GameStateMachine.h"
-#include "MainMenuState.h"
+
 #include "Texture.h"
-#include "SmartGhost.h"
 
-
+class MainMenuState;
 using uint = unsigned int;
 
 //DEFINICION DE LAS CONSTANTES

@@ -1,5 +1,5 @@
 #include "MenuButton.h"
-#include "Game.h"
+
 
 MenuButton::MenuButton(TextureName name, Point2D pos, Game* app , CallBackOnClick* cb) : GameObject(pos, width, height, app) { // EventHandler?
 	texture = app->getTexture(name);
