@@ -2,7 +2,8 @@
 #include <array>
 #include "Texture.h"
 #include "GameObject.h"
-#include "PlayState.h"
+
+class PlayState;
 class Game;
 
 enum MapCell{ Wall, Food, Vitamins, Empty};

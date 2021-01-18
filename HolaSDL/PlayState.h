@@ -67,12 +67,14 @@ public:
 	void storeGhost(Ghost*);
 	bool PacmanCanEat();
 
+protected://los que heredan
+	void handleEvent();
 
 private:
 	void DirGhost();
 	void loadLevelFile();
 	void loadFile(ifstream&);
-	void handleEvents();
+
 	void update();
 };
 

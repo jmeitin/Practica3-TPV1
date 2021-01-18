@@ -7,7 +7,10 @@
 #include <istream>
 #include <fstream>
 #include <iostream>
+
 using Point2D = Vector2D;
+
+class Game;
 
 class GameCharacter : public GameObject
 {

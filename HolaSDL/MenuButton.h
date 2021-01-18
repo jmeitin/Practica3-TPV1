@@ -11,11 +11,19 @@ const int height = 200;
 
 class MenuButton : public GameObject , public EventHandler
 {
-enum Estado {Nada,Hover,Clicked};
+enum Estado {Nada, Hover, Clicked};
+
+//FACILITA EL INDEXAR EL ARRAY--------------------------------------------------------------------------------------
+enum TextureName {
+	WallText, CharactersText, FoodText, BurguerText,
+	ExitText, MainText, PlayText, RestartText, ResumeText, SaveText
+};
+
 protected:
 	Texture* texture;
 	CallBackOnClick* cbOnClick; //puntero a funcion
 	Estado estado;
+
 public:
 	MenuButton(TextureName, Point2D, Game*, CallBackOnClick*);
 	~MenuButton();

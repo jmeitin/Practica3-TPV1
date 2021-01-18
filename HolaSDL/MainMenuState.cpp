@@ -1,6 +1,5 @@
 #include "MainMenuState.h"
-#include "Game.h"
-#include "PlayState.h"
+#include "Game.h" //texturas
 
 MainMenuState::MainMenuState(Game* a) : GameState(a) { //mas parametros?
 	stage.push_back(new MenuButton(playText, pos, a, playNew));

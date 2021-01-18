@@ -1,12 +1,13 @@
 ﻿#pragma once
+
 #include "Vector2D.h"
 #include "Texture.h"
 #include <array>
 #include "GameCharacter.h"
 #include <vector>
 #include <iostream>
-#include "PlayState.h"
 
+class PlayState;
 class Game;
 
 using Point2D = Vector2D;

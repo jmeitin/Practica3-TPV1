@@ -5,6 +5,7 @@
 #include <iostream>
 #include "Game.h"
 #include "PacmanError.h"
+
 using namespace std;
 
 using uint = unsigned int;

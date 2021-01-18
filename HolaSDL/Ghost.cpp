@@ -1,5 +1,6 @@
 #include "Ghost.h"
 #include "Game.h"
+#include "PlayState.h"
 #include <vector>
 #include <iostream>
 		

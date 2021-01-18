@@ -1,8 +1,5 @@
 #include "Texture.h"
 
-
-
-
 using namespace std;
 
 void Texture::liberar() {

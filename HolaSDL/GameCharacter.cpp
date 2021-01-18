@@ -1,5 +1,6 @@
 #include "GameCharacter.h"
 #include "Game.h"
+
 using namespace std;
 
 GameCharacter::GameCharacter(Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText, PlayState* play) : GameObject(posI, w, h, g) {

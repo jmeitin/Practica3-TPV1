@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include <string>
 #include <istream> //entrada
 #include <fstream> //salida
@@ -10,7 +9,7 @@
 #include "FileNotFound.h"
 #include "SDL.h" // Windows
 #include "SDL_image.h" // Windows
-
+#include <array> //--------------------------------------------
 #include "GameStateMachine.h"
 #include "MainMenuState.h"
 #include "Texture.h"
@@ -33,7 +32,7 @@ const TextureAtribs TEXTURES_ATRIBS[NUM_TEXTURES] = {
      {"main.png",1,3 } , {"play.png",1,3 } ,       {"restart.png",1,3 },    {"resume.png",1,3 },      {"save.png",1,3} 
 };
 
-//FACILITA EL INDEXAR EL ARRAY
+//FACILITA EL INDEXAR EL ARRAY (como acceder a este enum desde otras clases? menuButton, PuaseState)
 enum TextureName { 
 		WallText,		    CharactersText,			    FoodText,              BurguerText,
 		ExitText,          MainText,          PlayText,            RestartText,         ResumeText,         SaveText				

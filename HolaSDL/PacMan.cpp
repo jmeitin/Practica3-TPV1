@@ -1,5 +1,6 @@
 #include "PacMan.h"
 #include "Game.h"
+#include "PlayState.h"
 
 
 PacMan::PacMan (Point2D posI, int w, int h, Game* g, Vector2D v, Point2D pText, PlayState* play) : GameCharacter(posI, w, h, g, v, pText,play) {
@@ -49,7 +50,7 @@ bool PacMan::CanEat() {
 void PacMan::update() {
 	Point2D newPoint = pos;
 	Point2D newPoint1 = pos;
-	static_cast<PlayState*>(game->getCurrentState())->checkGhost(pos,canEat);
+	static_cast<PlayState*>(app->getCurrentState())->checkGhost(pos,canEat);
 	
 	// si puedo cambiar de direccion lo hago	
 	if (game->TryMove(getDestRect(), nextDir, newPoint)) { // si me puedo mover en esa nextDir, lo hago

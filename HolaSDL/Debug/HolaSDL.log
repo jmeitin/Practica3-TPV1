@@ -1,404 +1,94 @@
 ﻿  EventHandler.cpp
   Game.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(45,3): error C3861: 'loadSavedGame': no se encontró el identificador
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(46,3): error C3861: 'DirGhost': no se encontró el identificador
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(49,2): error C2181: 'else' no válido sin el correspondiente 'if'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(62,3): error C3861: 'saveGame': no se encontró el identificador
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(83,9): error C2065: 'level': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(83,18): error C2065: 'Playing': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(83,29): error C2065: 'level': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(83,38): error C2065: 'LevelPassed': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(84,3): error C2065: 'playState': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(87,34): error C2065: 'level': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(87,43): error C2065: 'GameOver': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(88,4): error C2065: 'playState': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Game.cpp(103,2): error C2065: 'playState': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Game.cpp(84,34): error C2660: 'GameState::handleEvent': la función no acepta 0 argumentos
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameState.h(24,7): message : vea la declaración de 'GameState::handleEvent'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Game.cpp(87,34): error C2065: 'level': identificador no declarado
   GameCharacter.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(15,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(33,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(34,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(23,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(24,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Game.cpp(87,43): error C2065: 'GameOver': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PacMan.h(17,1): error C2504: 'GameCharacter': clase base sin definir
   GameMap.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(20,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(20,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(20,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(24,15): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(26,15): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(33,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(34,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(23,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(24,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(39,9): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(39,9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(39,14): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(5,131): error C2040: 'p: 'PlayState *' se diferencia en los niveles de direccionamiento indirecto de 'Point2D'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(5,134): error C2511: 'GameMap::GameMap(int,int,Texture *,Texture *,Texture *,Point2D,int,int,Game *)': la función miembro sobrecargada no se ha encontrado en 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(10): message : vea la declaración de 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(5,156): error C2550: 'GameMap::{ctor}': las listas de inicializadores de constructor solo se permiten en las definiciones de constructor
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(6,2): error C2597: referencia no válida a miembro no static 'GameMap::rows'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(15): message : vea la declaración de 'GameMap::rows'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(7,2): error C2597: referencia no válida a miembro no static 'GameMap::cols'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(16): message : vea la declaración de 'GameMap::cols'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(8,23): error C2597: referencia no válida a miembro no static 'GameMap::rows'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(15): message : vea la declaración de 'GameMap::rows'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(8,2): error C2597: referencia no válida a miembro no static 'GameMap::cells'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(17): message : vea la declaración de 'GameMap::cells'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(10,26): error C2597: referencia no válida a miembro no static 'GameMap::rows'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(10,26): error C3867: 'GameMap::rows': sintaxis no estándar; utilice '&' para crear un puntero al miembro
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(10,26): error C2568: '<': no se puede resolver la sobrecarga de funciones
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(11,10): error C2597: referencia no válida a miembro no static 'GameMap::cells'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(11,10): error C3867: 'GameMap::cells': sintaxis no estándar; utilice '&' para crear un puntero al miembro
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(11,10): error C2109: el subíndice requiere una matriz o tipo de puntero
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(11,26): error C2597: referencia no válida a miembro no static 'GameMap::cols'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(16): message : vea la declaración de 'GameMap::cols'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(13,18): error C2677: '[' binario: no se encontró un operador global que adopte el tipo 'MapCell' (o bien no existe una conversión aceptable)
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(14,18): error C2677: '[' binario: no se encontró un operador global que adopte el tipo 'MapCell' (o bien no existe una conversión aceptable)
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(15,22): error C2677: '[' binario: no se encontró un operador global que adopte el tipo 'MapCell' (o bien no existe una conversión aceptable)
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.cpp(16,2): error C2597: referencia no válida a miembro no static 'GameMap::game'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19): message : vea la declaración de 'GameMap::game'
   GameObject.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
   GameState.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
-  GameStateMachine.cpp
   Ghost.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(9,1): error C2504: 'Ghost': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(23,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(24,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.cpp(48,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.cpp(61,21): warning C4018: '>': no coinciden signed/unsigned
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.cpp(66,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.h(16,1): error C2504: 'GameCharacter': clase base sin definir
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PacMan.h(17,1): error C2504: 'GameCharacter': clase base sin definir
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.h(9,1): error C2504: 'Ghost': clase base sin definir
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.cpp(49,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.cpp(62,21): warning C4018: '>': no coinciden signed/unsigned
   main.cpp
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.cpp(67,21): warning C4018: '<': no coinciden signed/unsigned
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005: '_malloca': redefinición de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message : vea la definición anterior de '_malloca'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
   MainMenuState.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.cpp(6,33): error C2065: 'playText': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.cpp(7,34): error C2065: 'restartText': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.cpp(8,33): error C2065: 'exitText': identificador no declarado
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message : vea la definición anterior de '_malloca'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MainMenuState.cpp(5,59): error C2664: 'MenuButton::MenuButton(const MenuButton &)': el argumento 1 no puede convertirse de 'MainMenuState::TextureName' a 'MenuButton::TextureName'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MainMenuState.cpp(5,33): message : La conversión a tipo de enumeración requiere una conversión explícita (static_cast, conversión de estilo de C o conversión de estilo de función)
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.h(28,2): message : vea la declaración de 'MenuButton::MenuButton'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MainMenuState.cpp(6,100): error C2664: 'MenuButton::MenuButton(const MenuButton &)': el argumento 1 no puede convertirse de 'MainMenuState::TextureName' a 'MenuButton::TextureName'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MainMenuState.cpp(6,34): message : La conversión a tipo de enumeración requiere una conversión explícita (static_cast, conversión de estilo de C o conversión de estilo de función)
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.h(28,2): message : vea la declaración de 'MenuButton::MenuButton'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MainMenuState.cpp(7,95): error C2664: 'MenuButton::MenuButton(const MenuButton &)': el argumento 1 no puede convertirse de 'MainMenuState::TextureName' a 'MenuButton::TextureName'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MainMenuState.cpp(7,33): message : La conversión a tipo de enumeración requiere una conversión explícita (static_cast, conversión de estilo de C o conversión de estilo de función)
   MenuButton.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.cpp(4,88): error C2511: 'MenuButton::MenuButton(TextureName,Point2D,Game *,CallBackOnClick (__cdecl *))': la función miembro sobrecargada no se ha encontrado en 'MenuButton'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(12): message : vea la declaración de 'MenuButton'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.cpp(4,106): error C2597: referencia no válida a miembro no static 'GameObject::width'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameObject.h(12): message : vea la declaración de 'GameObject::width'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.cpp(4,113): error C2597: referencia no válida a miembro no static 'GameObject::height'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameObject.h(12): message : vea la declaración de 'GameObject::height'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.cpp(4,126): error C2550: 'MenuButton::{ctor}': las listas de inicializadores de constructor solo se permiten en las definiciones de constructor
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.cpp(5,2): error C2597: referencia no válida a miembro no static 'MenuButton::texture'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(16): message : vea la declaración de 'MenuButton::texture'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.cpp(6,2): error C2597: referencia no válida a miembro no static 'MenuButton::cbOnClick'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(17): message : vea la declaración de 'MenuButton::cbOnClick'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.cpp(28,14): error C2065: 'game': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.h(28,2): message : vea la declaración de 'MenuButton::MenuButton'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.cpp(5,32): error C2664: 'Texture *Game::getTexture(TextureName)': el argumento 1 no puede convertirse de 'MenuButton::TextureName' a 'TextureName'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.cpp(5,28): message : La conversión a tipo de enumeración requiere una conversión explícita (static_cast, conversión de estilo de C o conversión de estilo de función)
   PacMan.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(15,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(33,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(34,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(23,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(24,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(40,8): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(40,8): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(40,16): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.cpp(52,32): error C2039: "getCurrentState": no es un miembro de "PlayState"
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(21): message : vea la declaración de 'PlayState'
-  PacmanError.cpp
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Game.h(61,11): message : vea la declaración de 'Game::getTexture'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\Ghost.h(16,1): error C2504: 'GameCharacter': clase base sin definir
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(40,8): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(40,8): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
   PauseState.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(15,25): error C3646: 'resumeText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(15,25): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(15,37): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(16,23): error C3646: 'saveText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(17,23): error C3646: 'mainText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(17,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.h(17,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.cpp(6,33): error C2065: 'resumeText': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.cpp(7,33): error C2065: 'saveText': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PauseState.cpp(8,33): error C2065: 'mainText': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(40,16): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PauseState.cpp(5,63): error C2664: 'MenuButton::MenuButton(const MenuButton &)': el argumento 1 no puede convertirse de 'PauseState::TextureName' a 'MenuButton::TextureName'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PauseState.cpp(5,33): message : La conversión a tipo de enumeración requiere una conversión explícita (static_cast, conversión de estilo de C o conversión de estilo de función)
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.h(28,2): message : vea la declaración de 'MenuButton::MenuButton'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PauseState.cpp(6,96): error C2664: 'MenuButton::MenuButton(const MenuButton &)': el argumento 1 no puede convertirse de 'PauseState::TextureName' a 'MenuButton::TextureName'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PauseState.cpp(6,33): message : La conversión a tipo de enumeración requiere una conversión explícita (static_cast, conversión de estilo de C o conversión de estilo de función)
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.h(28,2): message : vea la declaración de 'MenuButton::MenuButton'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PauseState.cpp(7,105): error C2664: 'MenuButton::MenuButton(const MenuButton &)': el argumento 1 no puede convertirse de 'PauseState::TextureName' a 'MenuButton::TextureName'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PauseState.cpp(7,33): message : La conversión a tipo de enumeración requiere una conversión explícita (static_cast, conversión de estilo de C o conversión de estilo de función)
   PlayState.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(20,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(20,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(20,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(24,15): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameCharacter.h(26,15): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(33,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\Ghost.h(34,7): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(23,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.h(24,12): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(3,24): error C2512: 'GameState': no hay disponible un constructor predeterminado adecuado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameState.h(10,7): message : vea la declaración de 'GameState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(33,14): error C2065: 'WIN_WIDTH': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(34,15): error C2065: 'WIN_HEIGHT': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(35,32): error C2065: 'textures': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(35,41): error C2065: 'WallText': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(35,52): error C2065: 'textures': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(35,61): error C2065: 'FoodText': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(35,72): error C2065: 'textures': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(35,81): error C2065: 'BurguerText': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(35,151): error C2661: 'GameMap::GameMap': ninguna función sobrecargada acepta 6 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(46,8): error C2248: 'GameMap::cells': no se puede obtener acceso al miembro private miembro declarado en la clase 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(17): message : vea la declaración de 'GameMap::cells'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(10): message : vea la declaración de 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(49,138): error C2661: 'SmartGhost::SmartGhost': ninguna función sobrecargada acepta 7 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(53,128): error C2661: 'PacMan::PacMan': ninguna función sobrecargada acepta 7 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(58,135): error C2661: 'Ghost::Ghost': ninguna función sobrecargada acepta 7 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(86,41): error C2661: 'PacMan::PacMan': ninguna función sobrecargada acepta 3 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(92,42): error C2661: 'Ghost::Ghost': ninguna función sobrecargada acepta 3 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(102,52): error C2661: 'SmartGhost::SmartGhost': ninguna función sobrecargada acepta 3 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(243,13): error C2248: 'GameMap::cells': no se puede obtener acceso al miembro private miembro declarado en la clase 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(17): message : vea la declaración de 'GameMap::cells'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(10): message : vea la declaración de 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(253,13): error C2248: 'GameMap::cells': no se puede obtener acceso al miembro private miembro declarado en la clase 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(17): message : vea la declaración de 'GameMap::cells'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(10): message : vea la declaración de 'GameMap'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(301,117): error C2661: 'SmartGhost::SmartGhost': ninguna función sobrecargada acepta 7 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(308,108): error C2661: 'Ghost::Ghost': ninguna función sobrecargada acepta 7 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.cpp(326,17): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-  SDLError.cpp
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\MenuButton.h(28,2): message : vea la declaración de 'MenuButton::MenuButton'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(3,24): error C2512: 'GameState': no hay disponible un constructor predeterminado adecuado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameState.h(11,7): message : vea la declaración de 'GameState'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(33,14): error C2065: 'WINren_WIDTH': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(34,15): error C2065: 'WIN_HEIGHT': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(35,32): error C2065: 'textures': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(35,41): error C2065: 'WallText': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(35,52): error C2065: 'textures': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(35,61): error C2065: 'FoodText': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(35,72): error C2065: 'textures': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(35,81): error C2065: 'BurguerText': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(35,151): error C2661: 'GameMap::GameMap': ninguna función sobrecargada acepta 6 argumentos
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(46,15): error C2248: 'GameMap::cells': no se puede obtener acceso al miembro private miembro declarado en la clase 'GameMap'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameMap.h(18): message : vea la declaración de 'GameMap::cells'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameMap.h(11): message : vea la declaración de 'GameMap'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(243,20): error C2248: 'GameMap::cells': no se puede obtener acceso al miembro private miembro declarado en la clase 'GameMap'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameMap.h(18): message : vea la declaración de 'GameMap::cells'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameMap.h(11): message : vea la declaración de 'GameMap'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(253,20): error C2248: 'GameMap::cells': no se puede obtener acceso al miembro private miembro declarado en la clase 'GameMap'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameMap.h(18): message : vea la declaración de 'GameMap::cells'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\GameMap.h(11): message : vea la declaración de 'GameMap'
   SmartGhost.cpp
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C2143: error de sintaxis: falta ';' delante de '*'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,11): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(19,17): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\GameMap.h(21,9): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(16,1): error C2504: 'GameCharacter': clase base sin definir
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(26,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PacMan.h(27,8): error C2061: error de sintaxis: identificador 'PlayState'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MenuButton.h(20,12): error C2061: error de sintaxis: identificador 'TextureName'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C3646: 'playText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(14,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C3646: 'restartText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,26): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(15,39): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C3646: 'exitText': especificador de invalidación desconocido
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,23): error C2059: error de sintaxis: '='
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\MainMenuState.h(16,33): error C2238: símbolos (token) inesperados delante de ';'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.cpp(41,21): warning C4018: '>': no coinciden signed/unsigned
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.cpp(102,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.cpp(132,6): error C2660: 'PlayState::GhostsCollide': la función no acepta 1 argumentos
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\PlayState.h(64,7): message : vea la declaración de 'PlayState::GhostsCollide'
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.cpp(137,22): warning C4018: '>': no coinciden signed/unsigned
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.cpp(142,49): warning C4018: '>': no coinciden signed/unsigned
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.cpp(143,9): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\SmartGhost.cpp(145,43): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.cpp(326,17): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PacMan.h(17,1): error C2504: 'GameCharacter': clase base sin definir
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(41,7): error C2065: 'Ghost': identificador no declarado
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(41,13): error C2059: error de sintaxis: '>'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(64,26): error C2061: error de sintaxis: identificador 'Ghost'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(67,23): error C2061: error de sintaxis: identificador 'Ghost'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(41,21): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(102,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(132,6): error C2660: 'PlayState::GhostsCollide': la función no acepta 1 argumentos
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\PlayState.h(64,7): message : vea la declaración de 'PlayState::GhostsCollide'
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(137,22): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(142,49): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(143,9): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
   Texture.cpp
+  Vector2D.cpp
   Generando código...
-C:\Users\ARIALBLAK\Desktop\practica3\Practica3-TPV1\HolaSDL\EventHandler.cpp(8): error C4716: 'EventHandler::handleEvent': debe devolver un valor
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\SmartGhost.cpp(145,43): warning C4018: '>': no coinciden signed/unsigned
+C:\Users\javie\Documents\UNI\TPV1\Practica3-TPV1\HolaSDL\EventHandler.cpp(8): error C4716: 'EventHandler::handleEvent': debe devolver un valor

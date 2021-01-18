@@ -2,11 +2,18 @@
 
 #include "GameState.h"
 #include "MenuButton.h"
+#include "MainMenuState.h"
 
 class Game;
 
 class PauseState : public  GameState
 {
+	//FACILITA EL INDEXAR EL ARRAY------------------------------------------------------------------------
+	enum TextureName {
+		WallText, CharactersText, FoodText, BurguerText,
+		ExitText, MainText, PlayText, RestartText, ResumeText, SaveText
+	};
+
 private:	
 	Point2D pos; //HAY QUE DARLE UN VALOR -------------------------------------------------------------------
 	

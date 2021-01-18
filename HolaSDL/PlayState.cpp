@@ -161,7 +161,7 @@ void PlayState::storeGhost(Ghost* g) {
 	ghostsList.push_back(g);
 }
 
-void PlayState::handleEvents() {
+void PlayState::handleEvent() {
 	SDL_Event event;
 	while (SDL_PollEvent(&event) && level == Playing) {
 		if (event.type == SDL_KEYDOWN) {

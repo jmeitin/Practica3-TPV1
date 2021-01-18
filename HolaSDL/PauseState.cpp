@@ -1,6 +1,5 @@
 #include "PauseState.h"
 #include "Game.h"
-#include "MainMenuState.h"
 
 PauseState::PauseState(Game* app) : GameState(app) { //mas parametros?
 	stage.push_back(new MenuButton(resumeText, pos,  app, resume)); //resume es el nombre del metodo	   //enverdadesapp

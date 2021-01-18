@@ -3,10 +3,11 @@
 #include "Vector2D.h"
 #include "Texture.h"
 #include "GameCharacter.h"
-#include "PlayState.h"
 #include <iostream>
 
 class Game;
+class PlayState;
+
 //enum MapCell { Wall, Food, Vitamins, Empty };
 enum falseBool { cant = 0, can };
 using Point2D = Vector2D;

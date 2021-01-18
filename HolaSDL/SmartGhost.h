@@ -1,9 +1,9 @@
 #pragma once
 #include "Ghost.h"
 #include <vector>
-#include "PlayState.h"
 
 class Game;
+class PlayState;
 
 class SmartGhost : public Ghost
 {

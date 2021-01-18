@@ -5,6 +5,7 @@
 #include "EventHandler.h"
 
 class Game;
+
 using namespace std;
 
 class GameState

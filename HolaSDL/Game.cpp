@@ -81,7 +81,7 @@ void Game::run() { //BUCLE PRINCIPAL DEL JUEGO
 	startTime = SDL_GetTicks();//nos devuelve el tiempo actual en milisegundos 
 	
 	while (!exitt) {		//get-------------------------------------------------------------------
-		getCurrentState()->handleEvents();				
+		getCurrentState()->handleEvent();				
 		frameTime = SDL_GetTicks() - startTime;
 						
 		if (frameTime >= FRAME_RATE || level == GameOver){ //Solo se actualiza cada tanto tiempo
